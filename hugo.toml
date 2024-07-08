@@ -1,0 +1,35 @@
+baseURL = 'https://codemageddon.me/'
+languageCode = 'en-us'
+title = "Codemageddon's corner"
+author = "Codemageddon"
+copyright = "Codemageddon"
+paginate = 10
+theme = "tailwind"
+
+[params]
+contentTypeName = "posts"
+
+[params.header]
+logo = "logo_v1.png"
+
+[params.footer]
+since = 2024
+poweredby = true
+
+[menu]
+[[menu.main]]
+identifier = "post"
+name = "Post"
+pageRef = "/posts"
+weight = 0
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+pageRef = "/about"
+weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
