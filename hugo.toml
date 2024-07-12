@@ -1,13 +1,22 @@
 baseURL = 'https://codemageddon.me/'
-languageCode = 'en-us'
+languageCode = 'en'
+defaultContentLanguage = "en"
 title = "Codemageddon's corner"
 author = "Codemageddon"
 copyright = "Codemageddon"
-paginate = 10
 theme = "tailwind"
+enableInlineShortcodes = true
+paginate = 10
+
+[pagination]
+pageSize = 10
 
 [params]
-contentTypeName = "posts"
+contentTypeName = "post"
+
+[params.author]
+name = "Codemageddon"
+
 
 [params.header]
 logo = "logo_v1.png"
@@ -18,18 +27,25 @@ poweredby = true
 
 [menu]
 [[menu.main]]
-identifier = "post"
-name = "Post"
-pageRef = "/posts"
-weight = 0
-
-[[menu.main]]
 identifier = "about"
 name = "About"
 pageRef = "/about"
-weight = 10
+weight = 0
+
+[[menu.main]]
+identifier = "post"
+name = "Post"
+pageRef = "/post"
+weight = 1000
+
 
 [taxonomies]
 category = "categories"
 tag = "tags"
 series = "series"
+
+[markup]
+  _merge = "deep"
+
+[markup.goldmark.renderer]
+unsafe= true
