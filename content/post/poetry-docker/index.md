@@ -6,7 +6,7 @@ tags = ["docker", "poetry", "python"]
 toc = true
 categories = ["devops"]
 image = "images/cover.png"
-date = "2023-09-03"
+date = "2024-09-03"
 +++
 
 ## What is Poetry
