@@ -1,0 +1,38 @@
+# SEO keywords and description for your site.
+keywords = "codemageddon, programming, software development"
+subtitle = "Codemageddon's blog"
+
+# dir name of your blog content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+contentTypeName = "post"
+
+# Show table of contents at the top of your posts (defaults to false)
+# Alternatively, add this param to post front matter for specific posts
+toc = true
+
+showReadingTime = true
+
+# use structure json-ld for articles
+jsonLD = false
+
+showAuthor = false
+
+[remark42]
+  enabled = true
+  host = "http://localhost:8080"
+
+[author]
+  name = "Codemageddon"
+  email = "github@codemageddon.me"
+
+[search]
+  summaryInclude = 180 # show only part of content in search result.
+  minMatchCharLength = 2 # https://www.fusejs.io/api/options.html#minmatchcharlength
+  threshold = 0.3 # https://www.fusejs.io/api/options.html#threshold
+
+[social_media]
+  [[social_media.items]]
+    enabled = true
+    title = 'Github'
+    icon = 'brand-github'
+    link = 'https://github.com/codemageddon'

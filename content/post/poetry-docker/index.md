@@ -6,7 +6,8 @@ tags = ["docker", "poetry", "python"]
 toc = true
 categories = ["devops"]
 image = "images/cover.png"
-date = "2023-09-03"
+date = "2023-09-03T23:13:12Z"
+comments = true
 +++
 
 ## What is Poetry
@@ -445,7 +446,7 @@ The table below presents the performance and size comparisons for different Dock
 Detailed measurements you can find in the [csv-file](data/results.csv)
 
 
-## Ways for extra optimizations
+## Ways for Extra Optimizations
 
 1. First of all, you are free to use the slim image for the build stage as well (see the `06-final-slim-build` approach in the table below). But you can do it just in case if you don’t need to build any native dependencies during the build stage, so basically I'd rather recommend to use the full image for builds - it's really cheap because of the docker caching mechanism.
 2. The second even more hard core option is to use alpine-based image, but there are some [possible issues](https://rpep.dev/posts/alpine-python-antipattern/) with it, so do it on your own risk.

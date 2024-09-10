@@ -17,7 +17,6 @@ contentTypeName = "post"
 [params.author]
 name = "Codemageddon"
 
-
 [params.header]
 logo = "logo_v1.png"
 
@@ -49,3 +48,7 @@ series = "series"
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[privacy]
+  [privacy.googleAnalytics]
+    respectDoNotTrack = true
