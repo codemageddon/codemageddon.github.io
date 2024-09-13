@@ -18,8 +18,8 @@ jsonLD = false
 showAuthor = false
 
 [remark42]
-  enabled = false
-  host = ""
+  enabled = true
+  host = "https://remark.codemageddon.me"
 
 [author]
   name = "Codemageddon"
