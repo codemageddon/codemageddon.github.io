@@ -6,7 +6,7 @@ tags = ["docker", "poetry", "python"]
 toc = true
 categories = ["devops"]
 image = "images/cover.png"
-date = "2023-09-03T23:13:12Z"
+date = "2024-09-03T23:13:12Z"
 comments = true
 +++
 
